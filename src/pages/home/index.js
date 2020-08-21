@@ -1,5 +1,4 @@
 import React from 'react'
-import { render } from 'react-dom';
 import store from '../../store'
 //导入action构建函数
 import { sendAction } from '../../action'
