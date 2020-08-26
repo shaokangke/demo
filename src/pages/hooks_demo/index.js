@@ -5,7 +5,7 @@ function Example(){
 
     return (
         <div>
-            <p>You clicked {count} times</p>
+            <p style={count%2==0?{color:'purple'}:{color:'green',fontSize:'17px'}}>You clicked {count} times</p>
             <button onClick={() => setCount(count + 1)}>
                 Click me plus one
             </button>
