@@ -315,9 +315,6 @@ class Second extends React.Component {
         var myChart = echarts.init(document.getElementById("main6"));
 
         myChart.setOption({
-            title: {
-                text: '分组柱状图',
-            },
             backgroundColor: '#333',
             textStyle: {
                 color: '#fff',
@@ -325,7 +322,7 @@ class Second extends React.Component {
             },
             color: ["#6E9D4E", "#EDDB4F", "#F7923A", "#F14747"],
             title: {
-                text: '7月水果销量',
+                text: '分组柱状图',
                 x: '2%',
                 y: '1%',
                 textStyle: {
