@@ -65,7 +65,6 @@ class Second extends React.Component {
                 },
             }],
             series: [{
-                name: 'Data',
                 name: '邮件营销',
                 type: 'bar',
                 barWidth: '70%',

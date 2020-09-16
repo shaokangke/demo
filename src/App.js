@@ -14,6 +14,8 @@ import Third from './pages/third'
 import Fourth from './pages/fourth'
 import Fifth from './pages/fifth'
 import Sixth from './pages/sixth'
+import NotFound from './pages/NotFound'
+
 
 
 
@@ -67,9 +69,10 @@ function App() {
               <Sixth />
             </Route>
 
-            <Route path="/">
+            <Route exact path="/First">
               <First />
             </Route>
+            <Route  component={NotFound} />
           </Switch>
         </div>
       </Router>
