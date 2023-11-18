@@ -7,6 +7,12 @@ import Axios from 'axios';
 export default class Home extends React.Component {
 //第二次 提交
 
+    ksk(){
+        console.log(第三次提交);
+        console.log(第四次提交);
+    }
+
+
 
     kk = () => {
         Axios.get('https://www.baifubao.com/callback?cmd=1059&callback=phone&phone=18156200568')
