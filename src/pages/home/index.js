@@ -5,7 +5,7 @@ import { sendAction } from '../../action'
 import Axios from 'axios';
 
 export default class Home extends React.Component {
-//第二次 提交
+
 
     ksk(){
         console.log(第三次提交);
@@ -14,9 +14,7 @@ export default class Home extends React.Component {
         console.log(第6次提交); 
 
     }
-    demo (){
-        //练习 git 提交
-    }
+
 
     //练习 git 操作
 
