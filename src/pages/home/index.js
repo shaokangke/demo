@@ -14,6 +14,9 @@ export default class Home extends React.Component {
         console.log(第6次提交); 
 
     }
+    demo (){
+        //练习 git 提交
+    }
 
 
 
